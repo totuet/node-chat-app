@@ -10,8 +10,7 @@ socket.on('disconnect', function () {
 });
 
 socket.on('newMessage', function (msg) {
-    console.log('a new message: ', msg );
+    console.log('msg: ', msg );
 
 
 });
-socket.emit('createMessage', "client to server");
